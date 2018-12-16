@@ -1,0 +1,4 @@
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+Options -Indexes
+ErrorDocument 403 ../404/

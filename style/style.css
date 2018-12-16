@@ -1,0 +1,851 @@
+/* Глобальные стили */
+*{
+	margin:0;
+	padding:0;
+}
+ul{
+	text-decoration:none;
+	list-style:none;
+}
+a{
+	color:inherit;
+}
+
+input, button{
+	outline:none;
+}
+
+a:active{
+	text-decoration:none;
+	color:inherit;
+}
+
+header{
+	background-color:#F5F5F5;
+}
+
+
+
+/* end Глобальных стилей*/
+
+/*Логотип*/
+.logo{
+	float:left;
+}
+/* end Логотип*/
+
+/*Текст цитаты*/
+.quote{
+	text-align:center;
+	float:left;
+	width:700px;
+	margin-left:90px;
+	margin-top:10px;
+	height:80px;
+	padding-top:20px;
+	font-style:italic;
+	font-size:1.1em;
+}
+
+/* end Текст цитаты*/
+
+/*Регистрация и авторизация*/
+
+.reg{
+	width: 100px;
+	float:left;
+	padding:40px;
+
+}
+
+.reg a{
+	display: block;
+    margin-left: 63px;
+}
+
+.reg a:first-child{
+	margin-bottom:5px;
+}
+
+.imgUserHead{
+	width:50px;
+	float: left;
+}
+
+.userLoginHead{
+	text-decoration: none;
+	font-size: 1.5em;
+	color:#8EDA00;
+	margin-bottom: 5px;
+}
+
+	/*Стили для регистрации, авторизации и восстановление пароля в файлах*/
+		.register{
+			border:1px solid black;
+			border-radius:10px;
+			width:500px;
+			margin: auto;
+			margin-top:20px;
+			text-align:center;
+			padding:5px;
+		}
+		#sub{
+			cursor:pointer;
+			margin-top:10px;
+		}
+
+		#restorePass{
+			border:1px solid black;
+			border-radius:10px;
+			width:300px;
+			margin:0 auto;
+			text-align:center;
+			padding:10px;
+		}
+
+		#restorePassP{
+			text-align:center;
+		}
+
+		#restorePassInp{
+			margin:10px 0px 0px 0px;
+		}
+	/* END для регистрации, авторизации и восстановление пароля в файлах */
+/*end регистрация и авторизация*/
+
+/*Навигация*/
+nav ul li{
+	float:left;
+	margin-right:20px;
+	font-size:1.5em;
+}
+
+nav ul li:first-child{
+	margin-left:10px;
+}
+
+nav ul li a{
+	color:black;
+}
+
+nav{
+	border-top: 1px solid #B6B6B6;
+	border-bottom: 1px solid #B6B6B6;
+	padding:5px 0px 5px 0px;
+}
+
+nav ul li a{
+	text-decoration:none;
+}
+
+
+/*end Навигация*/
+
+/* content */
+
+.content{
+	width:100%;
+	display:flex;
+}
+
+
+/* end content */
+
+/* stati */
+
+.articles{
+	width:60%;
+	margin-left: 20px;
+	margin-top:20px;
+
+}
+
+.articlePage{
+	margin: auto;
+	margin-top: 10px;
+
+}
+/*Хлебные крошки*/
+.breadCamp{
+		margin-bottom: 5px;
+}
+.breadCamp a {
+    font-size: 1.1em;
+    margin-left: 5px;
+    margin-right: 5px;
+    text-decoration: underline;
+		cursor:pointer;
+
+}
+/* end хлебных крошек */
+.article{
+	margin-bottom:20px;
+	min-width: 607px;
+}
+
+.article, h2, .starsImg  {
+	display: inline-block;
+}
+
+.starsImg{
+	width:20px;
+	cursor:pointer;
+}
+
+.butStars{
+	border:none;
+	background: none;
+	margin-left: 5px;
+}
+
+.articlesInfo{
+	display: inline-block;
+}
+
+.articlesInfo li{
+	display: inline-block;
+	margin-right: 5px;
+}
+
+.article p{
+	font-size:1.3em;
+	word-spacing:10px;
+}
+
+.statName a{
+	color:inherit;
+	text-decoration:none;
+}
+
+.imgStat{
+	width:300px;
+	float:left;
+	margin-right:15px;
+}
+
+.artimgstat{
+	width:100%;
+	margin-top:10px;
+}
+
+.statInfo{
+	margin-bottom:3px;
+	font-size:0.95em;
+	color:#B6B6B6;
+}
+
+.statInfo a{
+	color:#8EDA00;
+}
+
+.MyColor{
+	color:#8EDA00;
+	margin-right: 10px;
+}
+
+.atrStat p{
+	display: inline-block;
+}
+
+.podr{
+	font-size:0.9em;
+	color:#8EDA00;
+}
+
+	/*Комментарии*/
+		.commentsDiv{
+			margin-top: 40px;
+			width:600px;
+			margin-left: 30px;
+		}
+		.comments{
+			width:100%;
+			border-radius: 10px;
+			border-top:1px solid black;
+			border-bottom:1px solid black;
+			padding:5px;
+			margin-top:10px;
+		}
+		.comments img{
+			margin-right: 10px;
+			width:70px;
+			float:left;
+		}
+
+		.userNameAndData{
+			font-size: 1.2em;
+			margin-right: 5px;
+		}
+
+		.textComment{
+			font-size: 1.1em !important;
+			word-wrap: break-word;
+		}
+
+		.formComments{
+			margin-top:20px;
+		}
+
+		.formComments img{
+			margin-right: 10px;
+			width:70px;
+			float:left;
+			margin-top: 10px;
+		}
+
+		.formComments textarea{
+			border-radius: 5px;
+			resize: none;
+			padding: 3px;
+			margin-top: 5px;
+		}
+
+		#sub{
+			padding:7px;
+			border-radius: 5px;
+			color:white;
+			background-color: #8EDA00;
+			border:none;
+			margin-left: 80px;
+		}
+		#sub:hover{
+			border:1px solid black;
+			padding:6px;
+		}
+
+.logIn, .regInput{
+	border-radius: 5px;
+	padding:5px;
+}
+
+
+
+	#subBut{
+		padding:7px;
+		border-radius: 5px;
+		color:white;
+		background-color: #8EDA00;
+		border:none;
+		margin-top: 10px;
+		cursor: pointer;
+		width:183px;
+	}
+
+	/*end Комментарии*/
+
+/*InfoDiv*/
+ 	#ifoDiv{
+		margin-top: 20px;
+		font-style: italic;
+	}
+
+/* Статьи у пользователя */
+
+	.articleUser{
+		margin-bottom:20px;
+		border:1px solid #B6B6B6;
+		border-radius:20px;
+		padding:10px;
+
+	}
+
+	.articleUser h2{
+		margin-bottom:10px;
+		margin-left:10px;
+	}
+
+	.artUserAtr li{
+		font-size:1.5em;
+		display:inline-block;
+		margin-left:10px;
+	}
+	.artUserAtr li a{
+		color:#8EDA00;
+	}
+
+
+	.artUserAtrLi img{
+		width: 25px;
+		margin-bottom: -7px;
+	}
+
+	.star{
+		width:25px;
+		margin-bottom:-2px;
+		cursor:pointer;
+	}
+
+
+	.articleUser p{
+		margin-top:10px;
+		font-size:1.3em;
+		word-spacing:10px;
+	}
+
+	.articleUser p a{
+		margin-top:10px;
+	}
+
+	.userInfo{
+		margin-right:10px;
+		margin-bottom: 10px;
+	}
+/*  END Статьи у пользователя */
+
+/* end stati */
+
+/* right sidebar */
+
+.rigthSidebar{
+	width:30%;
+	margin-left:50px;
+	margin-top:20px;
+	font-size:0.9em;
+}
+
+.lastComm{
+	margin-top:10px;
+}
+
+.lastComm p {
+	word-wrap: break-word;
+}
+
+.auComm{
+	color:#8EDA00;
+}
+
+.lastComments{
+	margin-bottom:30px;
+	margin-top: 20px;
+}
+
+.popStat{
+	margin-top:10px;
+}
+
+.imgPopStat{
+	width:100px;
+	float:left;
+	margin-right:10px;
+}
+
+.opisPopStat span{
+	display:inline-block;
+	margin-right:5px;
+}
+
+.viePopStat{
+	color:#B6B6B6;
+}
+
+.namePopStat{
+
+	margin-bottom:5px;
+}
+
+.podr{
+	float:right;
+}
+
+
+/* end right sidebar */
+
+/* leftSidebar */
+
+.leftSidebar{
+	width:20%;
+	margin-left:10px;
+	padding-top:20px;
+	font-size:0.9em;
+
+}
+
+.leftSidebar h3{
+	font-size:2em;
+	font-style:inherit;
+	font-weight:normal;
+}
+
+.leftSidebar h3 a{
+	text-decoration:none;
+}
+
+.leftSidebar h4{
+	font-size:1.5em;
+	font-style:inherit;
+	font-weight:normal;
+}
+
+
+.PodCatUl{
+	display:block;
+	margin-left:20px;
+}
+
+.podCat{
+	line-height:25px;
+	font-size:1.2em;
+}
+/* end leftSidebar */
+
+.pagin{
+	display:flex;
+	justify-content:space-around;
+}
+
+.pagginBut2{
+	display:block;
+	border:1px solid black;
+	padding:10px;
+	border-radius:10px;
+	text-decoration:none;
+	cursor:pointer;
+}
+.pagginBut1{
+	display:block;
+	border:1px solid black;
+	padding:10px;
+	border-radius:10px;
+	text-decoration:none;
+	cursor:pointer;
+}
+
+.pagginBut2:hover{
+	cursor:pointer;
+	background-color:#D1D1D1;
+	color:#fff;
+}
+
+.pagginBut1:hover{
+	cursor:pointer;
+	background-color:#D1D1D1;
+	color:#fff;
+}
+
+/* footer */
+
+footer{
+	margin-top:20px;
+	padding:20px 0px 20px 0px;
+	border-top:1px solid  #B6B6B6;
+	background-color:#FAFAFA;
+}
+
+.socButton{
+	text-align:center;
+	margin-bottom:10px;
+}
+
+.copy{
+	text-align:center;
+}
+
+
+/* end footer */
+
+/*Прочие*/
+.clear{
+	clear:both;
+}
+/* end Прочие */
+
+/* Страница детального просмотра */
+
+.ArticleAtribute{
+	width:100%;
+	margin-bottom:10px;
+	position:relative;
+}
+
+.vievs{
+	display:inline-block;
+    line-height: 24px;
+    float:right;
+}
+
+.vievs img{
+	width:25px;
+	float:left;
+	margin-right:10px;
+}
+
+.imgArticle{
+	width:400px;
+	float:left;
+	margin-right:10px;
+}
+
+
+
+/* end Страница детального просмотра */
+
+/* Страница редактирования данных пользователя */
+
+#wrap{
+	width:600px;
+	margin: 10px auto;
+}
+
+.rowImg{
+	display:flex;
+}
+
+.userImgRed{
+	width:100px;
+	margin-right: 10px;
+}
+
+.textForImg div{
+	position: relative;
+	margin-top:10px;
+}
+
+.loadImgBut{
+	background-color:#8EDA00;
+	cursor: pointer;
+	padding: 5px;
+	border-radius:5px;
+	color:white;
+}
+
+.infoUsr{
+	border-radius: 10px;
+	padding:5px;
+
+}
+
+.infoUsr[name=newName]{
+	margin-bottom: 5px;
+}
+
+.infoUsr[name=newLogin]{
+	margin-bottom: 10px;
+}
+
+.usrInfoBut{
+	background-color:#8EDA00;
+	cursor: pointer;
+	padding: 10px;
+	border-radius:5px;
+	color:white;
+	width:183px;
+	border:none;
+	margin:10px 0px 10px 0px;
+}
+
+/* end Страница редактирования данных пользователя */
+
+/* Adaptive */
+
+
+@media screen and (min-width: 1025px) and (max-width: 1200px){
+	.quote{
+		width:500px;
+		margin-top:10px;
+		margin-left:10px;
+	}
+	.imgArticle{
+		width:300px;
+	}
+}
+
+@media screen and (min-width: 823px) and (max-width: 1025px){
+
+	.quote{
+		width:500px;
+		margin-top:10px;
+		margin-left:10px;
+	}
+
+	content{
+		flex-direction: row;
+	}
+
+	.imgArticle{
+		width:300px;
+	}
+
+	.imgStat{
+		width:270px;
+	}
+
+}
+
+@media screen and (min-width: 736px) and (max-width: 823px){
+
+	.quote{
+		width:348px;
+		margin-top:10px;
+		margin-left:0px;
+	}
+
+	content{
+		flex-direction: row;
+	}
+
+	.imgArticle{
+		width:100%;
+	}
+
+	.userInfo img{
+		float:none;
+		width:100%;
+	}
+	.leftSidebar{
+		width:25%;
+	}
+
+	.articles{
+		width:68%;
+	}
+	.imgStat {
+		width:100%;
+	}
+}
+
+@media screen and (min-width: 640px) and (max-width: 736px){
+	.quote{
+		width:300px;
+		margin-left:0px;
+	}
+
+	content{
+		flex-direction: row;
+	}
+	.reg{
+		padding:40px 10px 40px 10px;
+	}
+
+	.imgArticle{
+		width:100%;
+	}
+}
+
+
+@media screen and (min-width: 300px) and (max-width: 640px){
+
+	.logo{
+		margin-left:15%;
+	}
+
+	.reg{
+		    margin-left: 12%;
+	}
+
+	.content{
+		flex-direction: column;
+	}
+
+
+	.quote{
+		width:100%;
+		margin-top:0px;
+		margin-left:0px;
+		margin-bottom:10px;
+	}
+
+	.articles{
+		width:90%;
+		margin-top:20px;
+		margin-left:10px;
+
+	}
+
+	.article{
+		width: 100%;
+		margin-top:25px;
+	}
+
+	.rigthSidebar{
+		width:85%;
+		margin-bottom:20px;
+		margin-left: 25px;
+	}
+
+	.leftSidebar{
+		width:85%;
+		margin-bottom:20px;
+		margin-left: 30px;
+	}
+
+	.popStat{
+		margin-top:20px;
+	}
+
+	.imgArticle{
+		width:100%;
+	}
+
+	#comments{
+		width:100%;
+	}
+
+	.commentsDiv{
+		margin:5px;
+		width:100%;
+	}
+
+	.comments{
+		width:100%;
+		margin-left:2px;
+	}
+	.comment img{
+		width:10%;
+	}
+
+	.statName{
+		font-size: 1.3em;
+	}
+
+	.star{
+		width:20px;
+	}
+
+	.mess{
+		margin: 5px 0px 0px 65px !important;
+		font-size:0.9em;
+		word-spacing:1px;
+	}
+
+	.comment p{
+		    margin: 5px 0px 0px 15px;
+		    font-size:0.9em;
+		    word-spacing:1px;
+	}
+
+	.comment p:last-child{
+		    margin: 5px 0px 0px 20px;
+		    font-size:0.7em;
+		    word-spacing:1px;
+	}
+
+	.formComments img{
+		width:15%;
+
+	}
+	.formComments p{
+		margin: 5px 0px 0px 73px;
+		font-size:1.4em;
+
+	}
+	.formComments textarea{
+		margin-left: 7px;
+		width:98%;
+	}
+
+	.imgStat{
+		width:100%;
+	}
+
+	#wrap{
+		width:100%;
+	}
+
+	.rowInfo{
+		margin-left:20px;
+	}
+
+}
+
+/* end Adaptive */

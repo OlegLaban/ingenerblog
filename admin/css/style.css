@@ -1,0 +1,97 @@
+*{
+  margin:0;
+  padding:0;
+}
+
+h2 {
+  font-weight: normal;
+}
+
+td{
+  padding:5px;
+  border:1px solid black;
+  text-align: center;
+  width:250px;
+}
+
+button{
+  cursor:pointer;
+}
+
+#form{
+  display: flex;
+}
+
+.Anav{
+  padding:10px 0px 10px 0px;
+  margin-left: 50px;
+}
+
+.Anav ul li{
+  display:inline-block;
+  text-decoration: none;
+  margin-right: 5px;
+  padding:5px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.Anav ul li:hover{
+  border:1px solid black;
+  padding:4px;
+}
+
+.imgArt{
+  width:200px;
+}
+
+.textForm{
+  width:700px;
+  margin-left: 200px;
+}
+
+.textForm form input, .textForm form textarea {
+  width:500px;
+}
+
+.textForm form select{
+  width:250px;
+}
+
+.textForm form input{
+  padding:5px;
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.textForm form textarea{
+  padding:15px;
+}
+
+.catPodcat div{
+  display: inline-block;
+}
+
+#Asub{
+  margin-top: 20px;
+  padding:5px;
+  background-color: #8EDA00;
+  border:1px solid black;
+  color:white;
+  border-radius: 5px;
+}
+
+#Asub:hover{
+  border:2px solid black;
+  padding:4px;
+  background-color: #3AFF33;
+}
+
+#imgForm{
+
+}
+
+#catContaner{
+  margin-bottom: 10px;
+  margin-left:10px;
+}
