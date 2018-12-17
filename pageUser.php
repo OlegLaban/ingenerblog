@@ -17,14 +17,6 @@ if(isset($_SESSION['user'])){
              <span><?php echo $usrInfF['name']; ?></span><br>
 						<span><a href="/changeinfo/">Редактировать профиль</a></span>
 				</div>
-        	<h3>Статьи по категориям:</h3>
-					<h4>Категориия</h4>
-					<ul class="PodCatUl">
-						<li><a href="" class="podCat">Подкатегория</a></li>
-						<li><a href="" class="podCat">Подкатегория</a></li>
-						<li><a href="" class="podCat">Подкатегория</a></li>
-						<li><a href="" class="podCat">Подкатегория</a></li>
-					</ul>
 				</div>
 				<?php require "controllers/articlesUserController.php"; ?>
 				<div class="articles">
