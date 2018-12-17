@@ -1,9 +1,11 @@
 <?php include 'includes/header.php'; ?>
 				<div class="articles">
 					<?php
+						include 'controllers/paginationController.php';
 						include 'controllers/IndexArticlesController.php';
-						$articlesF = getArticles();
+						$articlesF = getArticles($art, $limit);
 						include 'view/ArticlesView.php';
+						
 					?>
 				</div>
 				<div class="rigthSidebar">
@@ -15,8 +17,12 @@
 				</div>
 				</div>
 		<div class="pagin">
-					<span class="pagginBut1">Назад</span>
-					<span class="pagginBut2">Вперед</span>
+					<?php if($page != 1 ): ?>
+					<span class="pagginBut1"><a href="/<?php echo $page - 1 ;?>/">Назад</a></span>
+					<?php endif;?>
+					<?php if($page != $total_pages ): ?>
+					<span class="pagginBut2"><a href="/<?php echo $page + 1 ;?>/">Вперед</a></span>
+					<?php endif; ?>
 		</div>
 		<script>
 

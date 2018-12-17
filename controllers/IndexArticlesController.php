@@ -1,9 +1,9 @@
 <?php
-			function getArticles(){
+			function getArticles($art, $limit){
 
 					$db_G = $GLOBALS['db'];
 					$articles = $db_G->prepare("SELECT articles.id, articles.title_art, articles.id_Cat, articles.id_pod_Cat, articles.pub_date, articles.views, articles.text_art, articles.img, podCat.title_pod_cat, Cat.title FROM `articles` INNER JOIN `Cat` ON (articles.id_Cat = Cat.id) INNER JOIN `podCat`
-					ON (articles.id_pod_Cat = podCat.id) ORDER BY `pub_date` DESC LIMIT 5 ");
+					ON (articles.id_pod_Cat = podCat.id) ORDER BY `pub_date` DESC LIMIT $art,$limit ");
 					$articles->execute();
 					$articlesFret = $articles->fetchAll();
 							return $articlesFret;
