@@ -27,7 +27,6 @@
       <td class="textArtTable"><?php echo trim(mb_substr($val['text_art'], 0, 100)) . "..."; ?></td>
       <td><?php echo $val['views']; ?></td>
       <td><?php echo $val['pub_date']; ?></td>
-        <td><button value="<?php echo $val['id']; ?>"><a>Просмотреть статью</a></button></td>
         <td><button value="<?php echo $val['id']; ?>"><a href="redArticles.php?id_art=<?php echo $val['id']; ?>">Изменить статью</a></button></td>
         <td><button value=""><a href="delStat.php?id=<?php echo  $val['id']; ?>">Удалить статью</a></button></td>
 
