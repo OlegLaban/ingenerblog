@@ -59,14 +59,6 @@
       </div>
     </div>
   </div>
-
-
-<script src='https://cloud.tinymce.com/stable/tinymce.min.js'></script>
-		<script>
-		  tinymce.init({
-			selector: '#mytextarea'
-		  });
-		</script>
   <script>
     $(document).ready(function() {
   console.log("work");
